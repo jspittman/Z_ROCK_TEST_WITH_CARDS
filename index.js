@@ -52,9 +52,14 @@ SidRothPlayer.prototype.handle = function () {
             shouldEndSession: true,
             card:
                 {
-                     type: "Simple",
-                     title: "Z-Rock 96.5",
-                     content: "Z-Rock is the best"
+                     "type": "Standard",
+                     "title": "Z-Rock 96.5",
+                     "text": "Z-Rock is the best",
+                     "image": 
+                              { 
+                          "smallImageUrl": "https://s3.amazonaws.com/skill-images-gomain/birthdaywishes512.PNG",
+                          "largeImageUrl": "https://s3.amazonaws.com/skill-images-gomain/birthdaywishes512.PNG"
+                              }
                 },
             directives: [
                 {
